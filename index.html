@@ -1,0 +1,770 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+   
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css" />
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet" />
+   
+   
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=shopping_cart_checkout" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=shopping_cart_checkout" />
+     <link rel="stylesheet"href="./styles/output.css" />
+
+    <title>Confeitària Artesanal</title>
+   
+
+</head>
+
+<body>
+
+  <!-- Header -->
+
+  <header class="w-full h-[420px] bg-zinc-100 bg-home bg-cover bg-center">
+
+    <div class="w-full h-full flex flex-col justify-center items-center">
+
+      <img src="fotos/foto.log2.jpg.jpg" 
+           alt="logo"
+           class="w-32 h-32 rounded-full shadow-lg hover:scale-110" />
+
+           <h1 class="text-3xl mt-4 mb-2 font-bold text-black">Fica, tem Bollo!</h1>
+          
+           <p class="text-1xl mt-1 mb-2 font-bold text-black">Confeitaria Artesanal</p>
+
+           <span class="text-black font-medium">Rua projetada "A" Casa 15,Vila Itaú Corumbá-MS</span>
+          
+           <div class="bg-green-600 px-4 py-1 rounded-lg mt-5" id="date-span">
+
+            <span class="text-black font- font-medium">Seg á Dom 07:00 as 23:00</span>
+
+
+           </div>
+           
+    </div>
+  </header>
+
+  <!-- FIm HEader -->
+
+  <!-- Header -->
+<h2 class="text-3xl md:text-3xl font-bold text-center  text-red-600  mt-9 mb-6"> 
+   CARDÁPIO DE NATAL 
+</h2>
+
+
+
+
+<h2 class="text-2xl md:text-3xl font-bold text-center  text-red-600  mt-9 mb-6"> 
+  Bolos 
+</h2>
+<!--Inicio Menu-->
+
+<div class="menu" id="menu">
+
+
+ <main class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7x1 px-4 mb-16">
+
+
+<!--prpduto item-->
+
+    <div class="flex gap-2 ">
+
+      <img src="/fotos/bolo de coco.jpg" alt="foto" class="w-28 h-28 rounded-md  hover:scale-110 hover:rotate-2 duration-300" 
+      />
+<div>
+
+  <p class=" font-bold">Bolo de Coco</p>
+<p class="text-sm">20cm</p>
+<p class="text-sm">Bolo decoco fofinho, molhado com calda de leite de coco coberto com coco fresco</p>
+
+    <div class=" flex items-center gap-2 justify-between mt-3">
+<p class="font-bold text-lg"> R$ 80.00</p>
+
+<button class="bg-black px-5 rounded add-to-cart-btn " data-name="Bolo de Coco" data-price="80.00">
+
+<span class="material-symbols-outlined text-lg text-white rounded">
+  shopping_cart_checkout
+  </span>
+</button>
+
+    </div>
+
+
+ </div>
+  
+</div>
+
+<!-- FIm produtos-->
+
+ </main>
+
+
+
+<div class="text-3xl md:text-3xl font-bold text-center  text-red-600  mt-9 mb-6">
+
+  <h2 class="font-bold text-3xl">TORTAS</h2>
+
+</div>
+
+<div class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7x1 px-4 mb-16">
+
+<!--prpduto item-->
+
+    <div class="flex gap-2 w-full">
+
+      <img src="/fotos/foto.tor.limao.jpg" alt="foto" class="w-28 h-28 rounded-md  hover:scale-110 hover:rotate-2 duration-300" 
+      />
+<div>
+
+  <p class=" font-bold">Torta de limão</p>
+<p class="text-sm">20cm</p>
+<p class="text-sm"></p>
+
+    <div class=" flex items-center gap-2 justify-between mt-3">
+<p class="font-bold text-lg"> R$ 120.00</p>
+
+<button class="bg-black px-5 rounded add-to-cart-btn " data-name="Torta de limão" data-price="120.00">
+
+<span class="material-symbols-outlined text-lg text-white rounded">
+  shopping_cart_checkout
+  </span>
+</button>
+
+    </div>
+
+
+ </div>
+  
+</div>
+
+<!-- FIm produtos-->
+
+
+<!--prpduto item-->
+
+<div class="flex gap-2 w-full">
+
+  <img src="/fotos/foto.torta marac.jpg" alt="foto" class="w-28 h-28 rounded-md  hover:scale-110 hover:rotate-2 duration-300" 
+  />
+<div>
+
+<p class=" font-bold">Torta de Maracuja</p>
+<p class="text-sm">20cm</p>
+<p class="text-sm"></p>
+
+<div class=" flex items-center gap-2 justify-between mt-3">
+<p class="font-bold text-lg"> R$ 120.00</p>
+
+<button class="bg-black px-5 rounded add-to-cart-btn " data-name="Torta de maracuja" data-price="120.00">
+
+<span class="material-symbols-outlined text-lg text-white rounded">
+shopping_cart_checkout
+</span>
+</button>
+
+</div>
+
+
+</div>
+
+</div>
+
+<!-- FIm produtos-->
+
+<!--prpduto item-->
+
+<div class="flex gap-2 w-full">
+
+  <img src="/fotos/foto.torta chocol.jpg.jpg" alt="foto" class="w-28 h-28 rounded-md  hover:scale-110 hover:rotate-2 duration-300" 
+  />
+<div>
+
+<p class=" font-bold">Torta de Chocolate</p>
+<p class="text-sm">20cm</p>
+<p class="text-sm"></p>
+
+<div class=" flex items-center gap-2 justify-between mt-3">
+<p class="font-bold text-lg"> R$ 120.00</p>
+
+<button class="bg-black px-5 rounded add-to-cart-btn " data-name="Torta de Chocolate" data-price="120.00">
+
+<span class="material-symbols-outlined text-lg text-white rounded">
+shopping_cart_checkout
+</span>
+</button>
+
+</div>
+
+
+</div>
+
+</div>
+
+<!-- FIm produtos-->
+
+
+<!--prpduto item-->
+
+<div class="flex gap-2 w-full">
+
+  <img src="/fotos/foto.torta de ninhogel.jpg" alt="foto" class="w-28 h-28 rounded-md  hover:scale-110 hover:rotate-2 duration-300" 
+  />
+<div>
+
+<p class=" font-bold">Torta de Ninhio com Geleia</p>
+<p class="text-sm">20cm</p>
+<p class="text-sm"></p>
+
+<div class=" flex items-center gap-2 justify-between mt-3">
+<p class="font-bold text-lg"> R$ 120.00</p>
+
+<button class="bg-black px-5 rounded add-to-cart-btn " data-name="Torta de Ninho com Geleia" data-price="120.00">
+
+<span class="material-symbols-outlined text-lg text-white rounded">
+shopping_cart_checkout
+</span>
+</button>
+
+</div>
+
+
+</div>
+
+</div>
+
+<!-- FIm produtos-->
+
+
+
+
+<!--prpduto item-->
+
+<div class="flex gap-2 w-full">
+
+<img src="/fotos/foto.torta banoff.jpg" alt="foto" class="w-28 h-28 rounded-md  hover:scale-110 hover:rotate-2 duration-300" 
+/>
+<div>
+
+<p class=" font-bold">Torta de Banoff</p>
+<p class="text-sm">20cm</p>
+<p class="text-sm"></p>
+
+<div class=" flex items-center gap-2 justify-between mt-3">
+<p class="font-bold text-lg"> R$ 120.00</p>
+
+<button class="bg-black px-5 rounded add-to-cart-btn " data-name="Torta de Banoff" data-price="120.00">
+
+<span class="material-symbols-outlined text-lg text-white rounded">
+shopping_cart_checkout
+</span>
+</button>
+
+</div>
+
+
+</div>
+
+</div>
+
+
+
+<!-- FIm produtos-->
+
+</div>
+
+<div class="text-3xl md:text-3xl font-bold text-center  text-red-600  mt-9 mb-6">
+
+  <h2 class="font-bold text-3xl">ROCOMBOLE</h2>
+
+</div>
+
+<main class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7x1 px-4 mb-16">
+
+
+  <!--prpduto item-->
+
+<div class="flex gap-2 w-full">
+
+  <img src="/fotos/foto.Rocombole.jpg" alt="foto" class="w-28 h-28 rounded-md  hover:scale-110 hover:rotate-2 duration-300" 
+  />
+  <div>
+  
+  <p class=" font-bold">Rocombole de Chocolate</p>
+  <p class="text-sm">20cm</p>
+  <p class="text-sm">Massa de Chocolate, Recheio de Chocolate</p>
+  
+  <div class=" flex items-center gap-2 justify-between mt-3">
+  <p class="font-bold text-lg"> R$ 120.00</p>
+  
+  <button class="bg-black px-5 rounded add-to-cart-btn " data-name="Rocomboleta "data-price="120.00">
+  
+  <span class="material-symbols-outlined text-lg text-white rounded">
+  shopping_cart_checkout
+  </span>
+  </button>
+  
+  </div>
+  
+  
+  </div>
+  
+  </div>
+  
+  
+  
+  <!-- FIm produtos-->
+
+
+   <!--prpduto item-->
+
+<div class="flex gap-2 w-full">
+
+  <img src="/fotos/foto.rocom.ninho.jpg" alt="foto" class="w-28 h-28 rounded-md  hover:scale-110 hover:rotate-2 duration-300" 
+  />
+  <div>
+  
+  <p class=" font-bold">Rocombole de Ninho</p>
+  <p class="text-sm">20cm</p>
+  <p class="text-sm">Massa branca, Recheio de Ninho</p>
+  
+  <div class=" flex items-center gap-2 justify-between mt-3">
+  <p class="font-bold text-lg"> R$ 120.00</p>
+  
+  <button class="bg-black px-5 rounded add-to-cart-btn " data-name="Rocomboleta  de Ninho"data-price="120.00">
+  
+  <span class="material-symbols-outlined text-lg text-white rounded">
+  shopping_cart_checkout
+  </span>
+  </button>
+  
+  </div>
+  
+  
+  </div>
+  
+  </div>
+  
+  
+  
+  <!-- FIm produtos-->
+
+   <!--prpduto item-->
+
+<div class="flex gap-2 w-full">
+
+  <img src="/fotos/foto.rocom.coco.jpg" alt="foto" class="w-28 h-28 rounded-md  hover:scale-110 hover:rotate-2 duration-300" 
+  />
+  <div>
+  
+  <p class=" font-bold">Rocombole de Coco</p>
+  <p class="text-sm">20cm</p>
+  <p class="text-sm">Massa branca, Recheio de Coco</p>
+  
+  <div class=" flex items-center gap-2 justify-between mt-3">
+  <p class="font-bold text-lg"> R$ 120.00</p>
+  
+  <button class="bg-black px-5 rounded add-to-cart-btn " data-name="Rocombole de Coco "data-price="120.00">
+  
+  <span class="material-symbols-outlined text-lg text-white rounded">
+  shopping_cart_checkout
+  </span>
+  </button>
+  
+  </div>
+  
+  
+  </div>
+  
+  </div>
+  
+  
+  
+  <!-- FIm produtos-->
+
+   <!--prpduto item-->
+
+<div class="flex gap-2 w-full">
+
+  <img src="/fotos/foto.Rocombole.jpg" alt="foto" class="w-28 h-28 rounded-md  hover:scale-110 hover:rotate-2 duration-300" 
+  />
+  <div>
+  
+  <p class=" font-bold">Rocombole de Prestigio</p>
+  <p class="text-sm">20cm</p>
+  <p class="text-sm">Massa de Chocolate ,</p>
+  
+  <div class=" flex items-center gap-2 justify-between mt-3">
+  <p class="font-bold text-lg"> R$ 120.00</p>
+  
+  <button class="bg-black px-5 rounded add-to-cart-btn " data-name="Rocomboleta de Prestigio"data-price="120.00">
+  
+  <span class="material-symbols-outlined text-lg text-white rounded">
+  shopping_cart_checkout
+  </span>
+  </button>
+  
+  </div>
+  
+  
+  </div>
+  
+  </div>
+  
+  
+  
+  <!-- FIm produtos-->
+
+</main>
+
+
+<div class="text-3xl md:text-3xl font-bold text-center  text-red-600  mt-9 mb-6">
+
+  <h2 class="font-bold text-3xl">SOBREMESSAS NA TRAVESSA</h2>
+
+</div>
+
+<div class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7x1 px-4 mb-16">
+
+
+    <!--prpduto item-->
+
+<div class="flex gap-2 w-full">
+
+  <img src="/fotos/foto.mouse de mar.jpg" alt="foto" class="w-28 h-28 rounded-md  hover:scale-110 hover:rotate-2 duration-300" 
+  />
+  <div>
+  
+  <p class=" font-bold">Mouse de Maracuja</p>
+  <p class="text-sm">Travessa Descartavel</p>
+  <p class="text-sm"></p>
+  
+  <div class=" flex items-center gap-2 justify-between mt-3">
+  <p class="font-bold text-lg"> R$ 120.00</p>
+  
+  <button class="bg-black px-5 rounded add-to-cart-btn " data-name="Muuse de Maracuja"data-price="120.00">
+  
+  <span class="material-symbols-outlined text-lg text-white rounded">
+  shopping_cart_checkout
+  </span>
+  </button>
+  
+  </div>
+  
+  
+  </div>
+  
+  </div>
+  
+  
+  
+  <!-- FIm produtos-->
+
+   <!--prpduto item-->
+
+<div class="flex gap-2 w-full">
+
+  <img src="/fotos/foto.mouse.lim.jpg.jpg" alt="foto" class="w-28 h-28 rounded-md  hover:scale-110 hover:rotate-2 duration-300" 
+  />
+  <div>
+  
+  <p class=" font-bold">Mouse de Limâo</p>
+  <p class="text-sm">Travessa Descartavel</p>
+  <p class="text-sm"></p>
+  
+  <div class=" flex items-center gap-2 justify-between mt-3">
+  <p class="font-bold text-lg"> R$ 120.00</p>
+  
+  <button class="bg-black px-5 rounded add-to-cart-btn " data-name="Mouse de Limâo"data-price="120.00">
+  
+  <span class="material-symbols-outlined text-lg text-white rounded">
+  shopping_cart_checkout
+  </span>
+  </button>
+  
+  </div>
+  
+  
+  </div>
+  
+  </div>
+  
+  
+  
+  <!-- FIm produtos-->
+
+    <!--prpduto item-->
+
+<div class="flex gap-2 w-full">
+
+  <img src="/fotos/foto.bom de uva.jpg" alt="foto" class="w-28 h-28 rounded-md  hover:scale-110 hover:rotate-2 duration-300" 
+  />
+  <div>
+  
+  <p class=" font-bold">Bom de Uva</p>
+  <p class="text-sm">Travessa Descartavel</p>
+  <p class="text-sm"></p>
+  
+  <div class=" flex items-center gap-2 justify-between mt-3">
+  <p class="font-bold text-lg"> R$ 120.00</p>
+  
+  <button class="bg-black px-5 rounded add-to-cart-btn " data-name="Bom de Uva"data-price="120.00">
+  
+  <span class="material-symbols-outlined text-lg text-white rounded">
+  shopping_cart_checkout
+  </span>
+  </button>
+  
+  </div>
+  
+  
+  </div>
+  
+  </div>
+  
+  
+  
+  <!-- FIm produtos-->
+
+   <!--prpduto item-->
+
+<div class="flex gap-2 w-full">
+
+  <img src="/fotos/foto.sobi.b.jpg.jpg" alt="foto" class="w-28 h-28 rounded-md  hover:scale-110 hover:rotate-2 duration-300" 
+  />
+  <div>
+  
+  <p class=" font-bold">Brownie</p>
+  <p class="text-sm">Travessa Descartavel</p>
+  <p class="text-sm"></p>
+  
+  <div class=" flex items-center gap-2 justify-between mt-3">
+  <p class="font-bold text-lg"> R$ 120.00</p>
+  
+  <button class="bg-black px-5 rounded add-to-cart-btn " data-name="Brownie"data-price="120.00">
+  
+  <span class="material-symbols-outlined text-lg text-white rounded">
+  shopping_cart_checkout
+  </span>
+  </button>
+  
+  </div>
+  
+  
+  </div>
+  
+  </div>
+  
+  
+  
+  <!-- FIm produtos-->
+
+
+   <!--prpduto item-->
+
+<div class="flex gap-2 w-full">
+
+  <img src="/fotos/foto.sobri.c.jpg.jpg" alt="foto" class="w-28 h-28 rounded-md  hover:scale-110 hover:rotate-2 duration-300" 
+  />
+  <div>
+  
+  <p class=" font-bold">Bom de Morango</p>
+  <p class="text-sm">Travessa Descartavel</p>
+  <p class="text-sm"></p>
+  
+  <div class=" flex items-center gap-2 justify-between mt-3">
+  <p class="font-bold text-lg"> R$ 120.00</p>
+  
+  <button class="bg-black px-5 rounded add-to-cart-btn " data-name="Bom de Morango"data-price="120.00">
+  
+  <span class="material-symbols-outlined text-lg text-white rounded">
+  shopping_cart_checkout
+  </span>
+  </button>
+  
+  </div>
+  
+  
+  </div>
+  
+  </div>
+  
+  
+  
+  <!-- FIm produtos-->
+
+   <!--prpduto item-->
+
+<div class="flex gap-2 w-full">
+
+  <img src="/fotos/foto.mosaico.jpg" alt="foto" class="w-28 h-28 rounded-md  hover:scale-110 hover:rotate-2 duration-300" 
+  />
+  <div>
+  
+  <p class=" font-bold">Mosaico</p>
+  <p class="text-sm">Travessa Descartavel</p>
+  <p class="text-sm"></p>
+  
+  <div class=" flex items-center gap-2 justify-between mt-3">
+  <p class="font-bold text-lg"> R$ 120.00</p>
+  
+  <button class="bg-black px-5 rounded add-to-cart-btn " data-name="Mosaico"data-price="120.00">
+  
+  <span class="material-symbols-outlined text-lg text-white rounded">
+  shopping_cart_checkout
+  </span>
+  </button>
+  
+  </div>
+  
+  
+  </div>
+  
+  </div>
+  
+  
+  
+  <!-- FIm produtos-->
+
+
+   <!--prpduto item-->
+
+<div class="flex gap-2 w-full">
+
+  <img src="/fotos/foto.sobri3.jpg" alt="foto" class="w-28 h-28 rounded-md  hover:scale-110 hover:rotate-2 duration-300" 
+  />
+  <div>
+  
+  <p class=" font-bold">Banoff</p>
+  <p class="text-sm">Travessa Descartavel</p>
+  <p class="text-sm"></p>
+  
+  <div class=" flex items-center gap-2 justify-between mt-3">
+  <p class="font-bold text-lg"> R$ 120.00</p>
+  
+  <button class="bg-black px-5 rounded add-to-cart-btn " data-name="Banoff"data-price="120.00">
+  
+  <span class="material-symbols-outlined text-lg text-white rounded">
+  shopping_cart_checkout
+  </span>
+  </button>
+  
+  </div>
+  
+  
+  </div>
+  
+  </div>
+  
+  
+  
+  <!-- FIm produtos-->
+
+   <!--prpduto item-->
+
+<div class="flex gap-2 w-full">
+
+  <img src="/fotos/foto.sobri6.jpg.jpg" alt="foto" class="w-28 h-28 rounded-md  hover:scale-110 hover:rotate-2 duration-300" 
+  />
+  <div>
+  
+  <p class=" font-bold">Dois Amores</p>
+  <p class="text-sm">Travessa Descartavel</p>
+  <p class="text-sm"></p>
+  
+  <div class=" flex items-center gap-2 justify-between mt-3">
+  <p class="font-bold text-lg"> R$ 120.00</p>
+  
+  <button class="bg-black px-5 rounded add-to-cart-btn " data-name="Dois Amores"data-price="120.00">
+  
+  <span class="material-symbols-outlined text-lg text-white rounded">
+  shopping_cart_checkout
+  </span>
+  </button>
+  
+  </div>
+  
+  
+  </div>
+  
+  </div>
+  
+  
+  
+  <!-- FIm produtos-->
+
+
+
+
+<!--modal cart-->
+<div class="bg-black/60 w-full h-full  fixed top-0 left-0 z[99]  items-center justify-center hidden " id="cart-modal">
+
+  <div class="bg-white p-5 rounded-md min-w-[90%] md:min-w[600px]">
+
+    <h2 class="text-center font-bold text-2x1 mb-2">Menu Carrinho</h2>
+
+    <div id="cart-items" class="flex justify-between mb-2 flex-col"></div>
+
+    <p class="font-bold">Total:<span id="cart-total">0,00</span></p>
+
+    <p class="font-bold mt-4">Endereço de entrega:</p>
+    <input type="text" placeholder="Digite seu endereço completo..." id="address" class="w-full border-2 p-1 rounded my-1" />
+    <p class="font-bold mt-4">Complemento:</p>
+    <input type="text" placeholder="Digite seu endereço completo..." id="address" class="w-full border-2 p-1 rounded my-1" />
+    <p class="font-bold mt-4"> Nome e Telefone:</p>
+  
+
+
+    <input type="text" placeholder="Digite seu endereço completo..." id="address" class="w-full border-2 p-1 rounded my-1" />
+
+   
+<p class="text-red-500 hidden" id="address-warn">Digite seu endereço completo</p>
+ 
+<div class="flex items-center justify-between mt-5 w-full">
+ 
+  <button id="close-modal-btn">Fechar</button>
+  <button id="checkout-btn" class="bg-green-500 text-white px-4 py-1 rounded">Finalizar pedido</button>
+</div>
+
+
+</div>
+
+</div>
+<!--fim modal cart -->
+
+<!--butão-->
+
+<footer class="w-full bg-red-500 py-4 fixed bottom-0 z-40 flex items-center justify-center">
+ 
+  <button class="flex items-center gap-2 text-white font-bold" id="cart-btn">
+
+
+    (<span id="cart-cout" >0</span>)
+    Veja meu Carinho
+    <i class="material-symbols-outlined  text-lg text-white">shopping_cart_checkout</i>
+  </button>
+
+
+</footer>
+
+
+<!--fim butão-->
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+<script src="script.js"></script>
+     
+</body>
+
+</html>
+
+
+
